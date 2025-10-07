@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+  <a href="index.html">Assignment 1</a>
+  <br>
+  <br>
+  <a href="2.html">Assignment 2</a>
+  <br>
+  <br>
+  <a href="3.html">Assignment 3</a>
+  <br>
+  <br>
+  <a href="4.html">Assignment 4</a>
+  <br>
+  <br>
+  <a href="5.html">Assignment 5</a>
+  <br>
+  <br>
+  <a href="6.html">Assignment 6</a>
+  <br>
+    <h1 style="text-align: center;">Assignment 2</h1>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 500px;
+            margin: 0 auto;
+            background: #e6e6e6;
+            padding: 30px;
+            border: 2px solid #ccc;
+        }
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        textarea {
+            width: 95%;
+            padding: 6px;
+        }
+        textarea {
+            height: 70px;
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 10px;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 5px 20px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration form</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="firstname"></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" name="lastname"></td>
+                </tr>
+                <tr>
+                    <td>Nick Name</td>
+                    <td><input type="text" name="nickname"></td>
+                </tr>
+                <tr>
+                    <td>e-mail</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" name="dob"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                        <input type="radio" name="gender" value="others"> Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td><input type="text" name="mobile"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="address"></textarea></td>
+                </tr>
+            </table>
+            <div class="buttons">
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

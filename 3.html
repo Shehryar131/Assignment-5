@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+  <a href="index.html">Assignment 1</a>
+  <br>
+  <br>
+  <a href="2.html">Assignment 2</a>
+  <br>
+  <br>
+  <a href="3.html">Assignment 3</a>
+  <br>
+  <br>
+  <a href="4.html">Assignment 4</a>
+  <br>
+  <br>
+  <a href="5.html">Assignment 5</a>
+  <br>
+  <br>
+  <a href="6.html">Assignment 6</a>
+  <br>
+    <h1 style="text-align: center;">Assignment 2</h1>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffff0;
+    }
+    .form-container {
+      border: 4px solid #000;
+      padding: 20px 40px;
+      width: 600px;
+      margin: 50px auto;
+      background: #fff;
+    }
+    h2 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      font-size: 15px;
+    }
+    label {
+      display: inline-block;
+      width: 130px;
+      margin-top: 8px;
+      vertical-align: top;
+    }
+    input[type="text"], input[type="email"], select {
+      width: 250px;
+      padding: 4px;
+      margin-top: 5px;
+    }
+    .inline {
+      display: inline-block;
+      width: auto;
+    }
+    .checkboxes label {
+      display: inline-block;
+      width: auto;
+      margin-right: 10px;
+      margin-top: 5px;
+      font-weight: normal;
+    }
+    .form-section {
+      margin-top: 15px;
+    }
+    input[type="submit"] {
+      margin-top: 20px;
+      padding: 8px 15px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Registration Form</h2>
+    <p>
+      Of course, all submitted information is kept in the strictest confidence.<br>
+      You always retain control of your information with D. W. Simpson &amp; Co.<br>
+      <b>Our services are always at no cost to you.</b>
+    </p>
+    <form>
+      <div class="form-section">
+        <label>Name:</label><input type="text" name="name"><br>
+        <label>Address:</label><input type="text" name="address"><br>
+        <label>City:</label><input type="text" name="city" style="width:150px;">
+        <label class="inline">State/Province:</label><input type="text" name="state" style="width:100px;"><br>
+        <label>Zip Code:</label><input type="text" name="zip" style="width:100px;"><br>
+        <label>Country:</label><input type="text" name="country"><br>
+        <label>Phone (H):</label><input type="text" name="phone_home" style="width:150px;">
+        <label class="inline">Fax:</label><input type="text" name="fax" style="width:150px;"><br>
+        <label>Phone (W):</label><input type="text" name="phone_work" style="width:150px;"> (if able to speak freely)<br>
+        <label>Email:</label><input type="email" name="email"><br>
+        <label>Company Name:</label><input type="text" name="company"> (optional)<br>
+        <label>Desired Region:</label>
+        <select name="region">
+          <option value="Other">Other</option>
+        </select>
+        <label class="inline">Other:</label><input type="text" name="region_other"><br>
+      </div>
+
+      <div class="form-section">
+        <p><b>Professional designations earned:</b></p>
+        <div class="checkboxes">
+          <label><input type="checkbox"> College Student</label>
+          <label><input type="checkbox"> Actuarial Student</label>
+          <label><input type="checkbox"> ACAS</label>
+          <label><input type="checkbox"> FCAS</label>
+          <label><input type="checkbox"> ASA</label><br>
+          <label><input type="checkbox"> FSA</label>
+          <label><input type="checkbox"> EA</label>
+          <label><input type="checkbox"> CFA</label>
+          <label><input type="checkbox"> MBA</label>
+          <label><input type="checkbox"> MAAA</label>
+          <label><input type="checkbox"> FIA</label>
+          <label><input type="checkbox"> FCIA</label><br>
+          <label><input type="checkbox"> FIAA</label>
+          <label><input type="checkbox"> Financial Engineer</label>
+          <label><input type="checkbox"> M.S.</label>
+          <label><input type="checkbox"> Ph.D.</label>
+          <label><input type="checkbox"> Data Mining</label>
+          <label><input type="checkbox"> Quant</label>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <label>Other Designations:</label><input type="text" name="other_designations"><br>
+      </div>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
